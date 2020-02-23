@@ -12,3 +12,6 @@ git clone https://github.com/Lienol/openwrt-package package/lienol
 # Add luci-app-vssr
 git clone https://github.com/Leo-Jo-My/luci-app-vssr package/luci-app-vssr
 git clone https://github.com/Leo-Jo-My/my package/my  #依赖包
+
+./scripts/feeds update -a
+./scripts/feeds install -a
