@@ -11,7 +11,7 @@ sed -i '$a src-git lienol https://github.com/Lienol/openwrt-package' feeds.conf.
 
 # Add luci-app-vssr
 git clone https://github.com/Leo-Jo-My/luci-app-vssr package/luci-app-vssr
-git clone https://github.com/Leo-Jo-My/my package/my  #依赖包
+git clone https://github.com/Leo-Jo-My/my package/my
 
 ./scripts/feeds update -a
 ./scripts/feeds install -a
